@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?kgk461');
-  src:  url('fonts/icomoon.eot?kgk461#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?kgk461') format('truetype'),
-    url('fonts/icomoon.woff?kgk461') format('woff'),
-    url('fonts/icomoon.svg?kgk461#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?fph6sx');
+  src:  url('fonts/icomoon.eot?fph6sx#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?fph6sx') format('truetype'),
+    url('fonts/icomoon.woff?fph6sx') format('woff'),
+    url('fonts/icomoon.svg?fph6sx#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,12 +24,36 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-chat:before {
+.icon-check:before {
   content: "\e900";
 }
-.icon-text:before {
+.icon-search:before {
   content: "\e901";
 }
-.icon-user:before {
+.icon-find:before {
+  content: "\e901";
+}
+.icon-lookup:before {
+  content: "\e901";
+}
+.icon-magnifier:before {
+  content: "\e901";
+}
+.icon-chat:before {
   content: "\e902";
+}
+.icon-chevron-small-down:before {
+  content: "\e903";
+}
+.icon-text:before {
+  content: "\e904";
+}
+.icon-thumb-tack:before {
+  content: "\e905";
+}
+.icon-commenting:before {
+  content: "\e906";
+}
+.icon-user:before {
+  content: "\e907";
 }

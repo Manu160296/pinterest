@@ -1,3 +1,172 @@
-body{
+body {
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*estilos de encabezado*/
+
+header {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100%
+}
+
+input {
+  width: 900px;
+  height: 41px;
+  border-radius: 6px;
+  background-color: #efefef;
+  margin-right: 30px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.top figure {
+  float: left;
+  width: 60px;
+  margin: 0;
+}
+
+.icon-1, .icon-2, .icon-3 {
+  transform: scale(2);
+  width: 20px;
+  display: inline-block;
+  margin-left: 40px
+}
+
+.top figure img {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px
+}
+
+span {
+  color: #b5b5b5;
+  width: 30px;
+  height: 30px;
+}
+
+.first-button {
+  background-color: #746051;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.second-button {
+  background-color: #ab8b6f;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.third-button {
+  background-color: #907a65;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.fourth-button {
+  background-color: #8f6f53;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.fifth-button {
+  background-color: #97944e;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.sixth-button {
+  background-color: #83745d;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.seventh-button {
+  background-color: #8f8685;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.eighth-button {
+  background-color: #9d7a5f;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.ninth-button {
+  background-color: #b89888;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.top li {
+  display: inline-block;
+}
+
+/*estilos del cuerpor de la pagina web*/
+
+.table {
+  margin-top: 200px;
+  column-count: 4;
+}
+
+.menu li {
+  display: inline-block;
+  margin-left: 13px;
+  width: 120px;
+  height: 60px;
+  text-align: center;
+}
+
+.element {
+  width: 270px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  flex-flow: column;
+}
+
+.image {
+  margin: 0;
+  padding: 10px
+}
+
+.image img {
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  border-radius: 15px;
+}
+
+.text {
+  width: 320px;
+}
+
+.letter {
+  background-color: #d597a1;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 20px;
+  display: inline-block;
+  text-align: center;
+  float: left;
+  margin: 0
+}
+
+.icon-thumb-tack, .icon-check, .ranking {
+  display: inline;
+}
+
+.user, .hashtag {
+  display: inline;
 }
